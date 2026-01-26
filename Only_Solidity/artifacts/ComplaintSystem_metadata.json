@@ -1,0 +1,166 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "complaintCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "getComplaint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "enum ComplaintTypes.Status",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					}
+				],
+				"name": "submitComplaint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum ComplaintTypes.Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "updateComplaintStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ComplaintSystem.sol": "ComplaintSystem"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ComplaintStorage.sol": {
+			"keccak256": "0x70cb860729dddee7c1aab655d6b27945c133d59c77bf5ae1c3042013073b2514",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f256e6523b859e27d2cc20754d9cc21e632d6c7845df01563dcceecb1572eec0",
+				"dweb:/ipfs/QmTmYPrbrpBDhrVsgjFU9wRmBpmsMKFQzQbMNZBW88dZWV"
+			]
+		},
+		"contracts/ComplaintSystem.sol": {
+			"keccak256": "0xc8f375af98587633e510c17f3af31eeb51c8ad6e7e1dbeabe188886602982efa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cd11808f6313228a302948dd2e18a378f1ebf47012d5a0de9bca92ccf3367f93",
+				"dweb:/ipfs/QmYNSCRVULPnCC5JMpB8dayjipPnPAXUpJQYuRu98dEamb"
+			]
+		},
+		"contracts/ComplaintTypes.sol": {
+			"keccak256": "0x35c5c8c870b2488cad66501e08ad91d8e870b22fb5ce63fa0c8f1668e3f95ade",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49998028db6f2aab3b633abeeb14c0be7435eb26247a9008130a6a7aa3c8fe95",
+				"dweb:/ipfs/Qmf8BYmJ5RbWjmEPVpT9rc6UnhbceRPRdwX2rmmcs8HcU4"
+			]
+		},
+		"contracts/Ownership.sol": {
+			"keccak256": "0xd173b971340b221423234df853073c12e378b04e411dfa5bf74ead8c23b16747",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9bc3e9e758f9943ede44e789bd5aa242d4286709d30ab436a1ff167b9b608305",
+				"dweb:/ipfs/Qmbmc2vBCUGDMcdhafAwifxXX5WzhtGRfNvykERzPaBBfV"
+			]
+		}
+	},
+	"version": 1
+}

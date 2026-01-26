@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "complaintCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ComplaintStorage.sol": "ComplaintStorage"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ComplaintStorage.sol": {
+			"keccak256": "0x70cb860729dddee7c1aab655d6b27945c133d59c77bf5ae1c3042013073b2514",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f256e6523b859e27d2cc20754d9cc21e632d6c7845df01563dcceecb1572eec0",
+				"dweb:/ipfs/QmTmYPrbrpBDhrVsgjFU9wRmBpmsMKFQzQbMNZBW88dZWV"
+			]
+		},
+		"contracts/ComplaintTypes.sol": {
+			"keccak256": "0x35c5c8c870b2488cad66501e08ad91d8e870b22fb5ce63fa0c8f1668e3f95ade",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49998028db6f2aab3b633abeeb14c0be7435eb26247a9008130a6a7aa3c8fe95",
+				"dweb:/ipfs/Qmf8BYmJ5RbWjmEPVpT9rc6UnhbceRPRdwX2rmmcs8HcU4"
+			]
+		}
+	},
+	"version": 1
+}
